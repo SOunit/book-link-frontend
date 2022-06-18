@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useState } from 'react';
-import socketIoClient from 'socket.io-client';
-import { Message } from '../domain';
+import { useCallback, useEffect, useState } from "react";
+import socketIoClient from "socket.io-client";
+import { Message } from "../domain";
 
 export const useSocketAdapter = () => {
   // fixme:any
@@ -9,16 +9,16 @@ export const useSocketAdapter = () => {
   useEffect(() => {
     // path without docker is like this
     // { path: 'http://127.0.0.1:3000' }
-    const socket = socketIoClient({ path: '/socket.io' });
+    const socket = socketIoClient({ path: "/socket.io" });
     setSocket(socket);
   }, []);
 
   const createMessage = (
     loginUserId: string,
     userId: string,
-    message: Message,
+    message: Message
   ) => {
-    socket.emit('create:message', {
+    socket.emit("create:message", {
       loginUserId,
       userId,
       message,
@@ -26,7 +26,7 @@ export const useSocketAdapter = () => {
   };
 
   const onUpdateChat = useCallback((callback: any, socket: any) => {
-    socket.on('update:chat', (message: Message) => {
+    socket.on("update:chat", (message: Message) => {
       callback(message);
     });
   }, []);
