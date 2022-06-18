@@ -1,0 +1,43 @@
+@import '../../../variables.scss';
+
+.image-container {
+  width: 2rem;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.message--mine {
+  flex-direction: row-reverse;
+}
+
+.message__image {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.message__text {
+  padding: 0.8rem;
+  border-radius: 12px;
+  margin: 0 0.2rem;
+  overflow-wrap: break-word;
+  max-width: 75%;
+  /* to avoid scroll bottom error by image load */
+  background-color: $colors7;
+  color: $colors1;
+}
+
+.message__text--mine {
+  background-color: $colors2;
+  color: $colors3;
+}
+
+.message__time {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: flex-end;
+}

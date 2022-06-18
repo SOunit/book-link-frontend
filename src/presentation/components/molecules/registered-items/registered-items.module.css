@@ -1,0 +1,11 @@
+.registered-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.registered-item {
+  width: 28%;
+  margin: 0.2rem;
+  margin-bottom: 1rem;
+}

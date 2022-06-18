@@ -1,0 +1,32 @@
+@import '../../../variables.scss';
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar__input {
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: $colors2;
+  color: $colors3;
+  outline: none;
+}
+
+::placeholder {
+  color: $colors5;
+}
+
+.search-bar__input:active,
+.search-bar__input:focus-visible {
+  border-color: inherit;
+}
+
+.search-bar__icon {
+  color: $colors5;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}

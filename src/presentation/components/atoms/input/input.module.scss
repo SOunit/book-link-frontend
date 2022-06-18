@@ -1,0 +1,10 @@
+@import '../../../variables.scss';
+
+.input {
+  border: 1px solid $colors3;
+  background-color: $colors1;
+  color: $colors3;
+  padding: 0.5rem 1rem;
+  outline: none;
+  width: 100%;
+}

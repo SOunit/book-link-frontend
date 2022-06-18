@@ -1,0 +1,10 @@
+@import '../../../variables.scss';
+
+.validate-input__input {
+  margin-bottom: 0.3rem;
+}
+
+.validate-input__input--invalid {
+  border-color: $colors8;
+  background-color: $colors9;
+}

@@ -1,0 +1,7 @@
+.user-detail__buttons {
+  justify-content: space-around;
+}
+
+.user-detail__button {
+  width: 45%;
+}

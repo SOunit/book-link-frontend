@@ -1,0 +1,15 @@
+@import '../../../variables.scss';
+
+.message-box {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.message__title {
+  margin: 0;
+}
+
+.message__text {
+  color: $colors5;
+  margin: 0.2rem;
+}

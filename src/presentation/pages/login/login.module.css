@@ -1,0 +1,23 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.slider-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.google-auth-button {
+  margin-bottom: 1rem;
+  width: 12rem;
+}
+
+.demo-auth-button {
+  width: 12rem;
+}

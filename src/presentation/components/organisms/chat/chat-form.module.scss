@@ -1,0 +1,30 @@
+@import '../../../variables.scss';
+
+.form-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.message-form {
+  padding: 0.8rem;
+  background-color: $colors1;
+}
+
+.message-input {
+  width: 100%;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  background-color: $colors2;
+  outline: none;
+  color: $colors3;
+}
+
+@media (min-width: 40rem) {
+  .message-form {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,53 @@
+@import '../../../variables.scss';
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: $colors1;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.nav-item {
+  flex-grow: 1;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__icon {
+  font-size: 1.2rem;
+  color: $colors5;
+}
+
+.nav__text {
+  font-size: 0.5rem;
+  margin: 0;
+  color: $colors5;
+}
+
+.nav__link--active .nav__icon,
+.nav__link--active .nav__text {
+  color: $colors3;
+}
+
+@media (min-width: 40rem) {
+  .footer {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+@import '../../../variables.scss';
+
+.follow-header {
+  display: flex;
+  border-bottom: 1px solid $colors10;
+  margin-bottom: 1rem;
+}
+
+.follow-header__title {
+  color: $colors2;
+  text-decoration: none;
+  flex: 1;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.follow-header__title--active {
+  color: $colors3;
+}

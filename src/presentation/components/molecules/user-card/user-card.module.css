@@ -1,0 +1,34 @@
+.user-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.2rem;
+}
+
+.user-card__name {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.user-image {
+  border-radius: 8px;
+  width: 30%;
+  overflow: hidden;
+}
+
+.user-card__contents {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.user-card__follow-number {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.actions {
+  margin-top: 0.4rem;
+}
+
+.user-image__image--round {
+  border-radius: 8px;
+}

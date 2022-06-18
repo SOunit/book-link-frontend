@@ -1,0 +1,23 @@
+@import '../../variables.scss';
+
+.search-bar {
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.new-item-link {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 1rem;
+
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $colors2;
+  padding: 0.5rem;
+  border-radius: 8px;
+}

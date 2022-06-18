@@ -1,0 +1,22 @@
+@import '../../../variables.scss';
+
+.chat-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.8rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: $colors1;
+  color: $colors3;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.char-header__left-icon {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}

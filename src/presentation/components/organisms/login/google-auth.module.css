@@ -1,0 +1,24 @@
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  padding: 0 1rem;
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.google-button--sign-out {
+  background-color: #db4437;
+}
+
+.google-button__icon {
+  margin-right: 0.2rem;
+  color: #9fc4ff;
+}
+
+.google-button--sign-out__icon {
+  color: #ff9e95;
+}

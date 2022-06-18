@@ -1,0 +1,48 @@
+@import '../../../variables.scss';
+
+.user-info {
+  display: flex;
+}
+
+.user-info__image {
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 7rem;
+}
+
+.user-info__image--no-image {
+  height: 10rem;
+}
+
+.user-info__details {
+  margin: 0 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.user-info__name {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.user-info__link {
+  text-decoration: none;
+  color: $colors5;
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+
+.user-info__logout {
+  color: $colors5;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.user-about {
+  background-color: $colors2;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 0;
+}

@@ -1,0 +1,11 @@
+@import '../../../variables.scss';
+
+.follow-number {
+  margin: 0;
+  color: $colors5;
+}
+
+.follow-number__number {
+  font-weight: bold;
+  color: $colors3;
+}

@@ -1,0 +1,14 @@
+.main {
+  margin: 1rem auto 5rem auto;
+  width: 95%;
+}
+
+.side-navigation--active {
+  right: 0;
+}
+
+@media (min-width: 40rem) {
+  .main {
+    max-width: 40rem;
+  }
+}

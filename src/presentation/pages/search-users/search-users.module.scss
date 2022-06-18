@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+
+.search-bar {
+  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  color: $colors3;
+}
+
+.button-container {
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.text--user-not-found {
+  text-align: center;
+}

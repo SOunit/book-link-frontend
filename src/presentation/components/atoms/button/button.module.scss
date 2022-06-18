@@ -1,0 +1,14 @@
+@import '../../../variables.scss';
+
+.button {
+  width: 100%;
+  background-color: $colors3;
+  color: $colors1;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+}
+
+.button:disabled {
+  background-color: $colors2;
+}

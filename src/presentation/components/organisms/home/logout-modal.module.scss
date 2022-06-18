@@ -1,0 +1,31 @@
+@import '../../../variables.scss';
+
+.logout-modal {
+  position: fixed;
+  background-color: $colors3;
+  color: $colors1;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 15;
+  width: 75%;
+  max-width: 20rem;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.logout-modal__buttons {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.logout-modal__button {
+  width: 50%;
+  border-radius: 0;
+  background-color: $colors3;
+  color: $colors1;
+  border-top: 0.1px solid $colors1;
+  padding: 1rem 0;
+}

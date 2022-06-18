@@ -1,0 +1,41 @@
+.chatListItem {
+  display: flex;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  justify-content: space-around;
+  min-height: 4.5rem;
+}
+
+.image-wrapper {
+  width: 3rem;
+  height: 3rem;
+}
+
+.chatListItem__details {
+  margin: 0 0.5rem;
+  flex-grow: 1;
+  max-width: 70%;
+}
+
+.chatListItem__name {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.chatListItem__text {
+  margin-top: 0;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+.chatListItem__time {
+  font-size: 0.8rem;
+}
+
+.chat-list-item__image {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+}

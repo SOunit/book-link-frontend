@@ -1,0 +1,24 @@
+.search-item-card {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.search-item-card__image {
+  width: 15%;
+  min-width: 4rem;
+}
+
+.search-item-card__item-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 85%;
+}
+
+.search-item-card__title {
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+}

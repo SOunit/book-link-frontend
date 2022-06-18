@@ -1,0 +1,71 @@
+@import '../../../variables.scss';
+
+.main-header {
+  background-color: $colors7;
+  color: $colors3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header__title {
+  font-size: 1.4rem;
+  margin: 0.5rem 1rem;
+}
+
+.main-header__title-link {
+  text-decoration: none;
+  color: $colors1;
+}
+
+.main-header__nav {
+  display: none;
+}
+
+.side-nav-button {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+.side-nav-button__bar {
+  height: 0.2rem;
+  width: 1.5rem;
+  background-color: $colors1;
+  margin: 0.1rem 0;
+}
+
+@media (min-width: 40rem) {
+  .side-nav-button {
+    display: none;
+  }
+
+  .main-header__nav {
+    display: flex;
+    margin: 0 1rem;
+    align-items: center;
+  }
+
+  .main-header__nav-items {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-header__nav-item {
+    margin: 0 1rem;
+  }
+
+  .main-header__nav-link {
+    color: $colors4;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 2px;
+  }
+
+  .main-header__nav-link--active {
+    color: $colors1;
+  }
+}
