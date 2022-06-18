@@ -1,8 +1,8 @@
 export const keys = {
   GOOGLE_CLIENT_ID:
-    '299755795397-qj7sdbcr9uq581gmv2bdruhmtdfo6vaj.apps.googleusercontent.com',
-  TOKEN_KEY: 'book_link_token',
-  GRAPHQL_REQUEST_URL: '/api/graphql',
+    "299755795397-qj7sdbcr9uq581gmv2bdruhmtdfo6vaj.apps.googleusercontent.com",
+  TOKEN_KEY: "book_link_token",
+  GRAPHQL_REQUEST_URL: process.env.REACT_APP_GRAPHQL_URL,
   AWS_S3_URL:
-    'https://image-upload-sample-blog-app-123.s3.ca-central-1.amazonaws.com/',
+    "https://image-upload-sample-blog-app-123.s3.ca-central-1.amazonaws.com/",
 };
