@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
-import socketIoClient from "socket.io-client";
+import { io } from "socket.io-client";
 import { Message } from "../domain";
+import { keys } from "../presentation/util";
 
 export const useSocketAdapter = () => {
   // fixme:any
@@ -8,8 +9,11 @@ export const useSocketAdapter = () => {
 
   useEffect(() => {
     // path without docker is like this
-    // { path: 'http://127.0.0.1:3000' }
-    const socket = socketIoClient({ path: "/socket.io" });
+    // { path: 'http://127.0.0.1:5000' }
+    const path = keys.SOCKET_REQUEST_URL;
+
+    const socket = io(path);
+
     setSocket(socket);
   }, []);
 

@@ -1,5 +1,5 @@
-import { Message } from '../../domain';
-import { useChatAdapter, useSocketAdapter } from '../../services';
+import { Message } from "../../domain";
+import { useChatAdapter, useSocketAdapter } from "../../services";
 
 export const useCreateMessage = () => {
   const chatAdapter = useChatAdapter();
@@ -9,7 +9,7 @@ export const useCreateMessage = () => {
     chatId: string,
     userId: string,
     messageText: string,
-    loginUserId: string,
+    loginUserId: string
   ) => {
     chatAdapter.createMessage(chatId, loginUserId, messageText).then((res) => {
       const message: Message = res.data.data.createMessage;
